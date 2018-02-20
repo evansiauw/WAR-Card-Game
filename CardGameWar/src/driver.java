@@ -6,7 +6,7 @@ public class driver {
 		
 		/// hellllooooooooooooooooooo
 		
-		deck newDeck= new deck();
+		/////////   deck newDeck= new deck();
 		
 		
 
