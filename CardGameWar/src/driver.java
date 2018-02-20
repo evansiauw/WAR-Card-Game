@@ -23,6 +23,7 @@ public class driver {
 	
 	private static void playGame(Deck array [], LinkedList <Deck> player1, LinkedList <Deck> player2) {
 		
+		LinkedList <Deck> temp = new LinkedList <>();
 		int cardCounter1 = 26;
 		int cardCounter2 = 26;
 	
@@ -38,7 +39,25 @@ public class driver {
 		
 		while (cardCounter1 >= 3 && cardCounter2 >= 3) {
 			
-			player
+			if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
+				cardCounter1++;
+				player1.addLast(player1.getFirst());
+				player1.addLast(player2.getFirst());
+				player1.removeFirst();
+				player2.removeFirst();					
+			}
+			
+			if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
+				cardCounter2++;
+				player2.addLast(player2.getFirst());
+				player2.addLast(player1.getFirst());
+				player1.removeFirst();
+				player2.removeFirst();					
+			}
+			
+			if(player1.getFirst().getValue() == player2.getFirst().getValue()) {
+				
+			}
 			
 		}
 		
