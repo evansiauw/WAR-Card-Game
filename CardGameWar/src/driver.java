@@ -38,6 +38,8 @@ public class driver {
 		
 		while (cardCounter1 >= 3 && cardCounter2 >= 3) {
 			
+			player
+			
 		}
 		
 		
@@ -67,10 +69,10 @@ public class driver {
         System.out.println();
 	}
 
-    private static void swap(Deck[] a, int i, int r) {
-        Deck swap = a[i];
-        a[i] = a[r];
-        a[r] = swap;
+    private static void swap(Deck[] array, int i, int r) {
+        Deck swap = array[i];
+        array[i] = array[r];
+        array[r] = swap;
     }
     
 }
