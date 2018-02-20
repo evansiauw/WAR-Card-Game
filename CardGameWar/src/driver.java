@@ -1,10 +1,15 @@
 import java.util.LinkedList;
+import java.util.Random;
 
 public class driver {
 
 	public static void main(String[] args) {
 	
 		Deck array [] = new Deck[52];
+		LinkedList <String> player1 = new LinkedList <>();
+		LinkedList <String> player2 = new LinkedList <>();
+		
+		
 		String [] ranks = {"2","3","4","5","6","7","8","9","10","Jack","Queens","King","Ace"};
 		
 		for(int i=0; i<52; i++) {
@@ -12,6 +17,22 @@ public class driver {
 		}	
 		
 		shuffling(array);
+		playGame(array, player1, player2);
+		
+	}
+	
+	private static void playGame(Deck array [], LinkedList <String> player1, LinkedList <String> player2) {
+		
+		int cardCounter1 = 26;
+		int cardCounter2 = 26;
+		int pointer1 = 0;
+		int pointer2 = 26;
+		
+		while (cardCounter1 >= 3 && cardCounter2 >= 3) {
+			
+		}
+		
+		
 		
 		
 	}
