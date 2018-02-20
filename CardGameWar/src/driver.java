@@ -8,6 +8,7 @@ public class driver {
 		
 		deck newDeck= new deck();
 		
+		
 
 	}
 
@@ -24,7 +25,7 @@ public class driver {
 		
 		public void setRank(int n) {
 			this.rank=n;
-			//this.nameCard= (String)n;
+			
 			
 			
 		} 
