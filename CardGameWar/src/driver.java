@@ -14,9 +14,34 @@ public class driver {
 			
 			}
 		
+        System.out.println("Before Swapping");
+		for (int i = 0; i < array.length; i++) {
+		    System.out.print(array[i] + ", ");
+		}
+		System.out.println();
+		
+		int arrayLength = array.length;
+        for (int i = 0; i < arrayLength; i++) {
+            int r = i + (int) (Math.random() * (arrayLength-i));   // between i and n-1
+            swap(array, i, r);
+        }
+        
+        System.out.println("After Swapping");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + ", ");
+        }
+        System.out.println();
+		
 	    LinkedList<Integer> list = new LinkedList<>();
 
 	
 	}
+
+    private static void swap(Deck[] a, int i, int r) {
+        Deck swap = a[i];
+        a[i] = a[r];
+        a[r] = swap;
+    }
+    
 }
 
