@@ -11,6 +11,14 @@ public class driver {
 			array [i] = new Deck(ranks[i%13],(i+2)%12); 
 		}	
 		
+		shuffling(array);
+		
+		
+	}
+	
+	
+	private static void shuffling(Deck array []) {
+		
         System.out.println("Before Swapping");
 		for (int i = 0; i < array.length; i++) {
 		    System.out.print(array[i] + ", ");
@@ -28,10 +36,6 @@ public class driver {
             System.out.print(array[i] + ", ");
         }
         System.out.println();
-		
-	    LinkedList<Integer> list = new LinkedList<>();
-
-	
 	}
 
     private static void swap(Deck[] a, int i, int r) {
