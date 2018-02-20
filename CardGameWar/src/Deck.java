@@ -5,7 +5,7 @@ public class Deck {
 	private String cardName;
 	private int cardValue;
 	
-	public Cards(String cardRank, int cardValue) {
+	public Deck(String cardRank, int cardValue) {
 		
 		cardName = cardRank;
 		this.cardValue = cardValue;
