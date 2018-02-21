@@ -29,12 +29,10 @@ public class driver {
 	
 		for(int i=0; i<26; i++) {
 			player1.add(i, array[i]);
-			System.out.println(player1.size());
 		}
 		
 		for(int j=26; j<52; j++) {
 			player2.add(j%26, array[j]);
-			System.out.println(player2.size());
 		}
 		
 		while (cardCounter1 > 3 && cardCounter2 > 3) {
@@ -47,8 +45,7 @@ public class driver {
 				player1.removeFirst();
 				player2.removeFirst();					
 			}
-			
-			if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
+			else if (player1.getFirst().getValue() < player2.getFirst().getValue()) {
 				cardCounter2++;
 				cardCounter2--;
 				player2.add(player2.getFirst());
@@ -57,7 +54,7 @@ public class driver {
 				player2.removeFirst();					
 			}
 			
-			if(player1.getFirst().getValue() == player2.getFirst().getValue()) {
+			else if (player1.getFirst().getValue() == player2.getFirst().getValue()) {
 				cardCounter1 -= 2;
 				cardCounter2 -= 2;
 				temp.add(player1.getFirst());
@@ -93,18 +90,18 @@ public class driver {
 					
 			}
 			
-			/*ListIterator<Deck> listIterator = player1.listIterator();
+			ListIterator<Deck> listIterator = player1.listIterator();
 			while (listIterator.hasNext()) {
-				System.out.println(listIterator.next());
-			} */
-			System.out.println(cardCounter1);
+				System.out.print(listIterator.next() + " ");
+			}
+			System.out.println();
 			
-			/*ListIterator<Deck> listIterator2 = player2.listIterator();
+			ListIterator<Deck> listIterator2 = player2.listIterator();
 			while (listIterator2.hasNext()) {
-				System.out.println(listIterator2.next());
-			}*/
+				System.out.print(listIterator2.next() + " ");
+			}
 			
-			System.out.print(cardCounter2);
+			System.out.println("\n");
 			
 		}
 		
