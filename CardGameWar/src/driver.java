@@ -108,7 +108,7 @@ public class driver {
 				System.out.print(listIterator4.next() + " ");
 			}
 			
-			System.out.println("\n"+ " Player 1 # cards "+cardCounter1 +" || Player 2 # cards"+ cardCounter2);
+			System.out.println("\n"+ " Player 1 # cards "+cardCounter1 +" || Player 2 # cards "+ cardCounter2);
 			System.out.println("\n");
 
 			printingCards(player1, player2);	
