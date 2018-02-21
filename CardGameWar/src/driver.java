@@ -38,7 +38,7 @@ public class driver {
         int cardsGainedOrLostFromWar = 4; 
         boolean warAgain = false;
         
-        while (player1.size() > 4 && player1.size() > 4) {
+        while (player1.size() > 0 && player2.size() > 0) {
             
             if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
                 player1.add(player1.removeFirst());
@@ -70,8 +70,6 @@ public class driver {
                 player2.removeFirst();
                 
                 if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
-                    cardCounter1 += cardsGainedOrLostFromWar;
-                    cardCounter2 -= cardsGainedOrLostFromWar;
                     temp.add(player1.getFirst());
                     player1.removeFirst();
                     temp.add(player2.getFirst());
@@ -82,8 +80,6 @@ public class driver {
                 }
                 
                 else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
-                    player1.size() += cardsGainedOrLostFromWar;
-                    player2.size() -= cardsGainedOrLostFromWar;
                     temp.add(player2.getFirst());
                     player2.removeFirst();
                     temp.add(player1.getFirst());
