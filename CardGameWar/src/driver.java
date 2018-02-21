@@ -24,8 +24,6 @@ public class driver {
     private static void playGame(Deck array [], LinkedList <Deck> player1, LinkedList <Deck> player2) {
         
         LinkedList <Deck> temp = new LinkedList <>();
-        int cardCounter1 = 26;
-        int cardCounter2 = 26;
     
         for(int i=0; i<26; i++) {
             player1.add(array[i]);
@@ -40,22 +38,16 @@ public class driver {
         int cardsGainedOrLostFromWar = 4; 
         boolean warAgain = false;
         
-        while (cardCounter1 > 4 && cardCounter2 > 4) {
+        while (player1.size() > 4 && player1.size() > 4) {
             
             if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
-                cardCounter1++;
-                cardCounter2--;
                 player1.add(player1.removeFirst());
                 player1.add(player2.removeFirst()); 
-                //player2.removeFirst();
             }
             
             else if (player1.getFirst().getValue() < player2.getFirst().getValue()) {
-                cardCounter2++;
-                cardCounter1--;
                 player2.add(player2.removeFirst());
-                player2.add(player1.removeFirst()); 
-                //player1.removeFirst();
+                player2.add(player1.removeFirst());
             }
             
             else if (player1.getFirst().getValue() == player2.getFirst().getValue()) {
@@ -64,8 +56,6 @@ public class driver {
                     cardsGainedOrLostFromWar = 4; 
                 }
                 System.out.println("war!!!!");
-//              cardCounter1 -= 4;
-//              cardCounter2 -= 4;
                 temp.add(player1.getFirst());
                 player1.removeFirst();
                 temp.add(player2.getFirst());
@@ -78,12 +68,6 @@ public class driver {
                 player1.removeFirst();
                 temp.add(player2.getFirst());
                 player2.removeFirst();
-//              temp.add(player1.getFirst());
-//              temp.add(player1.removeFirst());
-//              temp.add(player2.getFirst());
-//              temp.add(player2.removeFirst());
-//              temp.add(player2.getFirst());
-//              temp.add(player2.removeFirst());
                 
                 if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
                     cardCounter1 += cardsGainedOrLostFromWar;
@@ -98,8 +82,8 @@ public class driver {
                 }
                 
                 else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
-                    cardCounter2 += cardsGainedOrLostFromWar;
-                    cardCounter1 -= cardsGainedOrLostFromWar;
+                    player1.size() += cardsGainedOrLostFromWar;
+                    player2.size() -= cardsGainedOrLostFromWar;
                     temp.add(player2.getFirst());
                     player2.removeFirst();
                     temp.add(player1.getFirst());
@@ -115,11 +99,9 @@ public class driver {
                     continue;
                 }
             }
-            System.out.println("Player1 has " + cardCounter1);
-            System.out.println("Player2 has " + cardCounter2);
-            System.out.print(player1.size());
-            //player1.removeFirst();
-            //player2.removeFirst(); 
+          
+            System.out.println(player1.size());
+            System.out.println(player2.size());
             
             printingCards(player1, player2);    
         }
