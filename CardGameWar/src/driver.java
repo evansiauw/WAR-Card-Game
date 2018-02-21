@@ -43,7 +43,6 @@ public class driver {
         while (cardCounter1 > 3 && cardCounter2 > 3) {
             
             if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
-                System.out.println("player 1");
                 cardCounter1++;
                 cardCounter2--;
                 player1.add(player1.removeFirst());
@@ -52,7 +51,6 @@ public class driver {
             }
             
             else if (player1.getFirst().getValue() < player2.getFirst().getValue()) {
-                System.out.println("player 2");
                 cardCounter2++;
                 cardCounter1--;
                 player2.add(player2.removeFirst());
@@ -117,8 +115,8 @@ public class driver {
                     continue;
                 }
             }
-            System.out.println(cardCounter1);
-            System.out.println(cardCounter2);
+            System.out.println("Player1 has " + cardCounter1);
+            System.out.println("Player2 has " + cardCounter2);
             //player1.removeFirst();
             //player2.removeFirst(); 
             
