@@ -35,6 +35,20 @@ public class driver {
 			player2.add(array[j]);
 		}
 		
+		ListIterator<Deck> listIterator = player1.listIterator();
+		while (listIterator.hasNext()) {
+			System.out.print(listIterator.next() + " ");
+		}
+		System.out.println();
+		
+		ListIterator<Deck> listIterator2 = player2.listIterator();
+		while (listIterator2.hasNext()) {
+			System.out.print(listIterator2.next() + " ");
+		}
+		
+		System.out.println("\n");
+		
+		
 		while (cardCounter1 > 3 && cardCounter2 > 3) {
 			
 			if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
@@ -90,15 +104,15 @@ public class driver {
 					
 			}
 			
-			ListIterator<Deck> listIterator = player1.listIterator();
-			while (listIterator.hasNext()) {
-				System.out.print(listIterator.next() + " ");
+			ListIterator<Deck> listIterator3 = player1.listIterator();
+			while (listIterator3.hasNext()) {
+				System.out.print(listIterator3.next() + " ");
 			}
 			System.out.println();
 			
-			ListIterator<Deck> listIterator2 = player2.listIterator();
-			while (listIterator2.hasNext()) {
-				System.out.print(listIterator2.next() + " ");
+			ListIterator<Deck> listIterator4 = player2.listIterator();
+			while (listIterator4.hasNext()) {
+				System.out.print(listIterator4.next() + " ");
 			}
 			
 			System.out.println("\n");
@@ -129,7 +143,7 @@ public class driver {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + ", ");
         }
-        System.out.println();
+        System.out.println("\n");
 	}
 
     private static void swap(Deck[] array, int i, int r) {
