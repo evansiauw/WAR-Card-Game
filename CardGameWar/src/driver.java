@@ -35,7 +35,6 @@ public class driver {
         
         printingCards(player1,player2);
         
-        int cardsGainedOrLostFromWar = 4; 
         boolean warAgain = false;
         
         while (player1.size() > 0 && player2.size() > 0) {
@@ -52,49 +51,19 @@ public class driver {
             
             else if (player1.getFirst().getValue() == player2.getFirst().getValue()) {
                 
-                if (warAgain != true){
-                    cardsGainedOrLostFromWar = 4; 
-                }
-                System.out.println("war!!!!");
-                temp.add(player1.getFirst());
-                player1.removeFirst();
-                temp.add(player2.getFirst());
-                player2.removeFirst();
-                temp.add(player1.getFirst());
-                player1.removeFirst();
-                temp.add(player2.getFirst());
-                player2.removeFirst();
-                temp.add(player1.getFirst());
-                player1.removeFirst();
-                temp.add(player2.getFirst());
-                player2.removeFirst();
+            		War(player1, player2);
                 
-                if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
-                    temp.add(player1.getFirst());
-                    player1.removeFirst();
-                    temp.add(player2.getFirst());
-                    player2.removeFirst();
-                    player1.addAll(temp);
-                    temp.clear();
-                    warAgain = false;
+                else{
+                	
+                	NoWar(player1, player2);
+                	
                 }
-                
-                else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
-                    temp.add(player2.getFirst());
-                    player2.removeFirst();
-                    temp.add(player1.getFirst());
-                    player1.removeFirst();
-                    player2.addAll(temp);
-                    temp.clear();
-                    warAgain = false;
-                }
-                    
-                else {
+               /* else {
                     cardsGainedOrLostFromWar += 3;
                     warAgain = true;
                     continue;
-                }
-            }
+                } */
+            
           
             System.out.println(player1.size());
             System.out.println(player2.size());
@@ -103,7 +72,52 @@ public class driver {
         }
     }
     
+    private static void War(LinkedList <Deck> player1, LinkedList <Deck> player2) {
+    		
+    	if (player1.size() > 3 && player2.size() > 3){
+            
+            System.out.println("war!!!!");
+            temp.add(player1.getFirst());
+            player1.removeFirst();
+            temp.add(player2.getFirst());
+            player2.removeFirst();
+            temp.add(player1.getFirst());
+            player1.removeFirst();
+            temp.add(player2.getFirst());
+            player2.removeFirst();
+            temp.add(player1.getFirst());
+            player1.removeFirst();
+            temp.add(player2.getFirst());
+            player2.removeFirst();
+            
+            if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
+                temp.add(player1.getFirst());
+                player1.removeFirst();
+                temp.add(player2.getFirst());
+                player2.removeFirst();
+                player1.addAll(temp);
+                temp.clear();
+                warAgain = false;
+            }
+            
+            else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
+                temp.add(player2.getFirst());
+                player2.removeFirst();
+                temp.add(player1.getFirst());
+                player1.removeFirst();
+                player2.addAll(temp);
+                temp.clear();
+                warAgain = false;
+            }
+             
+            }
+    	
+    }
     
+    private static void NoWar(LinkedList <Deck> player1, LinkedList <Deck> player2) {
+    	
+    	
+    }
     private static void printingCards(LinkedList <Deck> player1, LinkedList <Deck> player2)
     {
         ListIterator<Deck> listIterator3 = player1.listIterator();
