@@ -28,11 +28,11 @@ public class driver {
 		int cardCounter2 = 26;
 	
 		for(int i=0; i<26; i++) {
-			player1.add(i, array[i]);
+			player1.add(array[i]);
 		}
 		
 		for(int j=26; j<52; j++) {
-			player2.add(j%26, array[j]);
+			player2.add(array[j]);
 		}
 		
 		while (cardCounter1 > 3 && cardCounter2 > 3) {
