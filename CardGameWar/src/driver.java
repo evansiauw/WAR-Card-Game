@@ -95,6 +95,10 @@ public class driver {
                 temp.clear();
             }
     		
+            else {
+            		NoWar(player1,player2,temp);
+            }
+    		
     		
     }
     
