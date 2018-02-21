@@ -55,17 +55,14 @@ public class driver {
 				cardCounter1++;
 				cardCounter2--;
 				player1.add(player1.getFirst());
-				player1.add(player2.getFirst());
-				player1.removeFirst();
-				player2.removeFirst();					
+				player1.add(player2.getFirst());					
 			}
+			
 			else if (player1.getFirst().getValue() < player2.getFirst().getValue()) {
 				cardCounter2++;
 				cardCounter2--;
 				player2.add(player2.getFirst());
-				player2.add(player1.getFirst());
-				player1.removeFirst();
-				player2.removeFirst();					
+				player2.add(player1.getFirst());				
 			}
 			
 			else if (player1.getFirst().getValue() == player2.getFirst().getValue()) {
@@ -103,6 +100,9 @@ public class driver {
 				}
 					
 			}
+			
+			player1.removeFirst();
+			player2.removeFirst(); 
 			
 			ListIterator<Deck> listIterator3 = player1.listIterator();
 			while (listIterator3.hasNext()) {
