@@ -53,12 +53,12 @@ public class driver {
                     
             		War(player1, player2, temp); }
                 
-           
+            }
             System.out.println(player1.size());
             System.out.println(player2.size());
             
             printingCards(player1, player2); 
-            }
+            
         }
     }
     
