@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Random;
 
 public class driver {
@@ -8,7 +9,6 @@ public class driver {
 		Deck array [] = new Deck[52];
 		LinkedList <Deck> player1 = new LinkedList <>();
 		LinkedList <Deck> player2 = new LinkedList <>();
-		
 		
 		String [] ranks = {"2","3","4","5","6","7","8","9","10","Jack","Queens","King","Ace"};
 		
@@ -37,27 +37,74 @@ public class driver {
 			System.out.println(player2.size());
 		}
 		
-		while (cardCounter1 >= 3 && cardCounter2 >= 3) {
+		while (cardCounter1 > 3 && cardCounter2 > 3) {
 			
 			if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
 				cardCounter1++;
-				player1.addLast(player1.getFirst());
-				player1.addLast(player2.getFirst());
+				cardCounter2--;
+				player1.add(player1.getFirst());
+				player1.add(player2.getFirst());
 				player1.removeFirst();
 				player2.removeFirst();					
 			}
 			
 			if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
 				cardCounter2++;
-				player2.addLast(player2.getFirst());
-				player2.addLast(player1.getFirst());
+				cardCounter2--;
+				player2.add(player2.getFirst());
+				player2.add(player1.getFirst());
 				player1.removeFirst();
 				player2.removeFirst();					
 			}
 			
 			if(player1.getFirst().getValue() == player2.getFirst().getValue()) {
+				cardCounter1 -= 2;
+				cardCounter2 -= 2;
+				temp.add(player1.getFirst());
+				temp.add(player1.removeFirst());
+				temp.add(player1.getFirst());
+				temp.add(player1.removeFirst());
+				temp.add(player2.getFirst());
+				temp.add(player2.removeFirst());
+				temp.add(player2.getFirst());
+				temp.add(player2.removeFirst());
 				
+				if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
+					cardCounter1 += 3;
+					cardCounter2 -= 3;
+					temp.add(player1.getFirst());
+					player1.removeFirst();
+					temp.add(player2.getFirst());
+					player2.removeFirst();
+					player1.addAll(temp);
+					temp.clear();
+				}
+				
+				if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
+					cardCounter2 += 3;
+					cardCounter1 -= 3;
+					temp.add(player2.getFirst());
+					player2.removeFirst();
+					temp.add(player1.getFirst());
+					player1.removeFirst();
+					player2.addAll(temp);
+					temp.clear();
+				}
+					
 			}
+			
+			/*ListIterator<Deck> listIterator = player1.listIterator();
+			while (listIterator.hasNext()) {
+				System.out.println(listIterator.next());
+			} */
+			System.out.println(cardCounter1);
+			
+			/*ListIterator<Deck> listIterator2 = player2.listIterator();
+			while (listIterator2.hasNext()) {
+				System.out.println(listIterator2.next());
+			}*/
+			
+			System.out.print(cardCounter2);
 			
 		}
 		
