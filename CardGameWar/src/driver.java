@@ -47,9 +47,9 @@ public class driver {
                 player2.add(player1.removeFirst());
             }
             
-            else if (player1.getFirst().getValue() == player2.getFirst().getValue()) {
+            else {
                 
-            		if (player1.size() > 4 && player2.size() > 4){
+            		if (player1.size() >= 4 && player2.size() >= 4){
                     
             		War(player1, player2, temp); }
                 
@@ -95,10 +95,10 @@ public class driver {
                 temp.clear();
             }
             
-            else {
+           /* else {
             	
             	War(player1, player2, temp);
-            }
+            }*/
     	
     }
     
