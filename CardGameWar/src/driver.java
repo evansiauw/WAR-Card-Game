@@ -40,7 +40,7 @@ public class driver {
         int cardsGainedOrLostFromWar = 4; 
         boolean warAgain = false;
         
-        while (cardCounter1 > 3 && cardCounter2 > 3) {
+        while (cardCounter1 > 4 && cardCounter2 > 4) {
             
             if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
                 cardCounter1++;
@@ -117,6 +117,7 @@ public class driver {
             }
             System.out.println("Player1 has " + cardCounter1);
             System.out.println("Player2 has " + cardCounter2);
+            System.out.print(player1.size());
             //player1.removeFirst();
             //player2.removeFirst(); 
             
