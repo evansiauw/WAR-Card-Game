@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Random;
+import java.math.*;
 
 public class driver {
 
@@ -52,6 +53,11 @@ public class driver {
             		if (player1.size() >= 4 && player2.size() >= 4){
                     
             		War(player1, player2, temp); }
+            		
+            		else {
+            			
+            			NoWar(player1, player2, temp);
+            		}
                 
             }
             System.out.println(player1.size());
@@ -60,6 +66,36 @@ public class driver {
             printingCards(player1, player2); 
             
         }
+    }
+    
+    private static void NoWar(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
+    	
+    		int num = Math.min(player1.size(), player2.size());
+    		
+    		for(int i = 0; i < num-1; i++) {
+    			temp.add(player1.removeFirst());
+    			temp.add(player2.removeFirst());
+    		}
+    		
+    		if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
+                temp.add(player1.getFirst());
+                player1.removeFirst();
+                temp.add(player2.getFirst());
+                player2.removeFirst();
+                player1.addAll(temp);
+                temp.clear();
+            }
+            
+            else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
+                temp.add(player2.getFirst());
+                player2.removeFirst();
+                temp.add(player1.getFirst());
+                player1.removeFirst();
+                player2.addAll(temp);
+                temp.clear();
+            }
+    		
+    		
     }
     
     private static void War(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
