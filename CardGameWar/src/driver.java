@@ -50,7 +50,7 @@ public class driver {
             
             else {
                 
-            		if (player1.size() >= 4 && player2.size() >= 4){
+            		if (player1.size() >= 5 && player2.size() >= 5){
                     
             		War(player1, player2, temp); }
             		
@@ -69,13 +69,24 @@ public class driver {
     }
     
     private static void NoWar(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
-    	
-    		int num = Math.min(player1.size(), player2.size());
+    	if (player1.size() != 1 && player2.size() != 1){
+    		//remove cards that caused the war and put them in temp list
+            temp.add(player1.removeFirst());
+            temp.add(player2.removeFirst());
+        
+            int num = Math.min(player1.size(), player2.size()); 
     		
+            //the player with less cards deals whatever they got
     		for(int i = 0; i < num-1; i++) {
-    			temp.add(player1.removeFirst());
-    			temp.add(player2.removeFirst());
+    			if (player1.size() < player2.size()) temp.add(player1.removeFirst());
+    			else temp.add(player2.removeFirst());
     		}
+    		
+    		//the player with more cards does a regular war
+    		for(int i = 0; i < 4; i++) {
+                if (player1.size() > player2.size()) temp.add(player1.removeFirst());
+                else temp.add(player2.removeFirst());
+            }
     		
     		if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
                 temp.add(player1.getFirst());
@@ -95,15 +106,43 @@ public class driver {
                 temp.clear();
             }
     		
-            else {
-            		NoWar(player1,player2,temp);
+            /*else {
+            		NoWar(player1,player2,temp);*/
+        }    
+    	else{
+    	    //the player with more cards does a regular war
+            for(int i = 0; i < 4; i++) {
+                if (player1.size() > player2.size()) temp.add(player1.removeFirst());
+                else temp.add(player2.removeFirst());
             }
-    		
+            
+            if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
+                temp.add(player1.getFirst());
+                player1.removeFirst();
+                temp.add(player2.getFirst());
+                player2.removeFirst();
+                player1.addAll(temp);
+                temp.clear();
+            }
+            
+            else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
+                temp.add(player2.getFirst());
+                player2.removeFirst();
+                temp.add(player1.getFirst());
+                player1.removeFirst();
+                player2.addAll(temp);
+                temp.clear();
+            }
+    	}
     		
     }
     
     private static void War(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
             System.out.println("war!!!!");
+            temp.add(player1.getFirst());
+            player1.removeFirst();
+            temp.add(player2.getFirst());
+            player2.removeFirst();
             temp.add(player1.getFirst());
             player1.removeFirst();
             temp.add(player2.getFirst());
