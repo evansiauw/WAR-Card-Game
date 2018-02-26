@@ -69,8 +69,8 @@ public class driver {
             printingCards(player1, player2); 
             
         }
-        if (player1.size() > player2.size()) System.out.println("Player 1 Wins the War!");
-        else System.out.println("Player 2 Wins the War!");
+        if (player1.size() > player2.size()) System.out.println("Player 1 Wins the Game!");
+        else System.out.println("Player 2 Wins the Game!");
     }
     
     private static void ModifiedWar(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
