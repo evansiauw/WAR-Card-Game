@@ -87,12 +87,6 @@ public class driver {
     			temp.add(player2.removeFirst());
     		}
     		
-    		//the player with more cards does a regular war
-    		/*for(int i = 0; i < 4; i++) {
-                if (player1.size() > player2.size()) temp.add(player1.removeFirst());
-                else temp.add(player2.removeFirst());
-            }*/
-    		
     		if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
                 temp.add(player1.getFirst());
                 player1.removeFirst();
@@ -121,29 +115,8 @@ public class driver {
                 else {
                     temp.add(player2.removeFirst());
                 }
-            
-            
-            /*if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
-                temp.add(player1.getFirst());
-                player1.removeFirst();
-                temp.add(player2.getFirst());
-                player2.removeFirst();
-                player1.addAll(temp);
-                temp.clear();
-            }
-            
-            else if(player1.getFirst().getValue() < player2.getFirst().getValue()) {
-                temp.add(player2.getFirst());
-                player2.removeFirst();
-                temp.add(player1.getFirst());
-                player1.removeFirst();
-                player2.addAll(temp);
-                temp.clear();
-            }*/
     	}
-    	
-    		
-    }
+}
     
     private static void standardWar(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
             temp.add(player1.getFirst());
@@ -198,7 +171,6 @@ public class driver {
         System.out.println("\n");
     }
     
-    
     private static void shuffling(Deck array []) {
         
         System.out.println("Before Shuffling");
@@ -220,7 +192,6 @@ public class driver {
         System.out.println("\n");
     }
 
-    
     private static void swap(Deck[] array, int i, int r) {
         Deck swap = array[i];
         array[i] = array[r];
