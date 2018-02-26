@@ -106,8 +106,6 @@ public class driver {
                 temp.clear();
             }
     		
-            /*else {
-            		NoWar(player1,player2,temp);*/
         }    
     	else{
     	    //the player with more cards does a regular war
@@ -151,10 +149,6 @@ public class driver {
             player1.removeFirst();
             temp.add(player2.getFirst());
             player2.removeFirst();
-            temp.add(player1.getFirst());
-            player1.removeFirst();
-            temp.add(player2.getFirst());
-            player2.removeFirst();
             
             if(player1.getFirst().getValue() > player2.getFirst().getValue()) {
                 temp.add(player1.getFirst());
@@ -173,12 +167,7 @@ public class driver {
                 player2.addAll(temp);
                 temp.clear();
             }
-            
-           /* else {
-            	
-            	War(player1, player2, temp);
-            }*/
-    	
+        
     }
     
     private static void printingCards(LinkedList <Deck> player1, LinkedList <Deck> player2)
