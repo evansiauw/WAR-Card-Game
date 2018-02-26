@@ -1032,5 +1032,4 @@ Player 1's hand:
 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 10 9 7 5 Ace Queen 7 7 Queen King 4 4 Jack 10 5 2 
 Player 2's hand:
 
-
 Player 1 Wins the Game!
