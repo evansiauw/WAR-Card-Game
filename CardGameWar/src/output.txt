@@ -1,0 +1,1036 @@
+Before Shuffling
+2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace, 
+After Shuffling
+3, Queen, 4, 5, 7, Ace, 9, 2, 3, Queen, 9, King, 7, 5, 6, 3, Ace, Queen, 4, 3, Ace, 10, 7, Jack, 7, 6, King, 8, 10, 9, 2, 8, 6, Queen, 6, 4, 5, King, Jack, Ace, 2, Jack, King, 10, 10, Jack, 8, 8, 2, 5, 4, 9, 
+
+Begin game:
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+3 Queen 4 5 7 Ace 9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 
+Player 2's hand:
+King 8 10 9 2 8 6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 25
+Number of Cards in Player 2's Deck: 27
+Player 1's hand:
+Queen 4 5 7 Ace 9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 
+Player 2's hand:
+8 10 9 2 8 6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+4 5 7 Ace 9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 
+Player 2's hand:
+10 9 2 8 6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 25
+Number of Cards in Player 2's Deck: 27
+Player 1's hand:
+5 7 Ace 9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 
+Player 2's hand:
+9 2 8 6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 24
+Number of Cards in Player 2's Deck: 28
+Player 1's hand:
+7 Ace 9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 
+Player 2's hand:
+2 8 6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 25
+Number of Cards in Player 2's Deck: 27
+Player 1's hand:
+Ace 9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 
+Player 2's hand:
+8 6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+9 2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 
+Player 2's hand:
+6 Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 27
+Number of Cards in Player 2's Deck: 25
+Player 1's hand:
+2 3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 
+Player 2's hand:
+Queen 6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+3 Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 
+Player 2's hand:
+6 4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 25
+Number of Cards in Player 2's Deck: 27
+Player 1's hand:
+Queen 9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 
+Player 2's hand:
+4 5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+9 King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 
+Player 2's hand:
+5 King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 27
+Number of Cards in Player 2's Deck: 25
+Player 1's hand:
+King 7 5 6 3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 
+Player 2's hand:
+King Jack Ace 2 Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 
+
+We have a standard war
+
+Player 1 wins this round
+Number of Cards in Player 1's Deck: 31
+Number of Cards in Player 2's Deck: 21
+Player 1's hand:
+3 Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 
+Player 2's hand:
+Jack King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 30
+Number of Cards in Player 2's Deck: 22
+Player 1's hand:
+Ace Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 
+Player 2's hand:
+King 10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 31
+Number of Cards in Player 2's Deck: 21
+Player 1's hand:
+Queen 4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King 
+Player 2's hand:
+10 10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+4 3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 
+Player 2's hand:
+10 Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 31
+Number of Cards in Player 2's Deck: 21
+Player 1's hand:
+3 Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 
+Player 2's hand:
+Jack 8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 30
+Number of Cards in Player 2's Deck: 22
+Player 1's hand:
+Ace 10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 
+Player 2's hand:
+8 8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 31
+Number of Cards in Player 2's Deck: 21
+Player 1's hand:
+10 7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 
+Player 2's hand:
+8 2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+7 Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 
+Player 2's hand:
+2 5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+Jack 7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 
+Player 2's hand:
+5 4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+7 6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 
+Player 2's hand:
+4 9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 35
+Number of Cards in Player 2's Deck: 17
+Player 1's hand:
+6 Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 
+Player 2's hand:
+9 King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+Queen 8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 
+Player 2's hand:
+King 3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+8 7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 
+Player 2's hand:
+3 10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+7 2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 
+Player 2's hand:
+10 4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+2 Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 
+Player 2's hand:
+4 9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+Ace 8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 
+Player 2's hand:
+9 5 Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+8 9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 
+Player 2's hand:
+5 Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+9 6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 
+Player 2's hand:
+Queen 2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+6 Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 
+Player 2's hand:
+2 6 3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+Queen 4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 
+Player 2's hand:
+6 3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 35
+Number of Cards in Player 2's Deck: 17
+Player 1's hand:
+4 9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 
+Player 2's hand:
+3 Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 36
+Number of Cards in Player 2's Deck: 16
+Player 1's hand:
+9 5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 
+Player 2's hand:
+Jack 3 10 4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 35
+Number of Cards in Player 2's Deck: 17
+Player 1's hand:
+5 King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 
+Player 2's hand:
+3 10 4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 Jack 9 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 36
+Number of Cards in Player 2's Deck: 16
+Player 1's hand:
+King King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 
+Player 2's hand:
+10 4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 Jack 9 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+King 7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 
+Player 2's hand:
+4 Jack 3 9 6 King Queen 10 7 4 2 Queen 9 Jack 9 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+7 Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 
+Player 2's hand:
+Jack 3 9 6 King Queen 10 7 4 2 Queen 9 Jack 9 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+Jack 5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 
+Player 2's hand:
+3 9 6 King Queen 10 7 4 2 Queen 9 Jack 9 Jack 7 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+5 Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 
+Player 2's hand:
+9 6 King Queen 10 7 4 2 Queen 9 Jack 9 Jack 7 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+Ace 6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 
+Player 2's hand:
+6 King Queen 10 7 4 2 Queen 9 Jack 9 Jack 7 9 5 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+6 2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 
+Player 2's hand:
+King Queen 10 7 4 2 Queen 9 Jack 9 Jack 7 9 5 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+2 Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 
+Player 2's hand:
+Queen 10 7 4 2 Queen 9 Jack 9 Jack 7 9 5 King 6 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 36
+Number of Cards in Player 2's Deck: 16
+Player 1's hand:
+Ace King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 
+Player 2's hand:
+10 7 4 2 Queen 9 Jack 9 Jack 7 9 5 King 6 Queen 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+King Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 
+Player 2's hand:
+7 4 2 Queen 9 Jack 9 Jack 7 9 5 King 6 Queen 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+Queen 10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 
+Player 2's hand:
+4 2 Queen 9 Jack 9 Jack 7 9 5 King 6 Queen 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 39
+Number of Cards in Player 2's Deck: 13
+Player 1's hand:
+10 Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 
+Player 2's hand:
+2 Queen 9 Jack 9 Jack 7 9 5 King 6 Queen 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 40
+Number of Cards in Player 2's Deck: 12
+Player 1's hand:
+Ace 8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 
+Player 2's hand:
+Queen 9 Jack 9 Jack 7 9 5 King 6 Queen 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 41
+Number of Cards in Player 2's Deck: 11
+Player 1's hand:
+8 10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen 
+Player 2's hand:
+9 Jack 9 Jack 7 9 5 King 6 Queen 2 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 40
+Number of Cards in Player 2's Deck: 12
+Player 1's hand:
+10 8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen 
+Player 2's hand:
+Jack 9 Jack 7 9 5 King 6 Queen 2 9 8 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 39
+Number of Cards in Player 2's Deck: 13
+Player 1's hand:
+8 7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen 
+Player 2's hand:
+9 Jack 7 9 5 King 6 Queen 2 9 8 Jack 10 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+7 2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen 
+Player 2's hand:
+Jack 7 9 5 King 6 Queen 2 9 8 Jack 10 9 8 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+2 Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen 
+Player 2's hand:
+7 9 5 King 6 Queen 2 9 8 Jack 10 9 8 Jack 7 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 36
+Number of Cards in Player 2's Deck: 16
+Player 1's hand:
+Jack 5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen 
+Player 2's hand:
+9 5 King 6 Queen 2 9 8 Jack 10 9 8 Jack 7 7 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 37
+Number of Cards in Player 2's Deck: 15
+Player 1's hand:
+5 7 4 8 3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 
+Player 2's hand:
+5 King 6 Queen 2 9 8 Jack 10 9 8 Jack 7 7 2 
+
+We have a standard war
+
+Player 2 wins this round
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+3 Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 
+Player 2's hand:
+2 9 8 Jack 10 9 8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+Ace 9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 
+Player 2's hand:
+9 8 Jack 10 9 8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 35
+Number of Cards in Player 2's Deck: 17
+Player 1's hand:
+9 8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 
+Player 2's hand:
+8 Jack 10 9 8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 36
+Number of Cards in Player 2's Deck: 16
+Player 1's hand:
+8 5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 
+Player 2's hand:
+Jack 10 9 8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 35
+Number of Cards in Player 2's Deck: 17
+Player 1's hand:
+5 6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 
+Player 2's hand:
+10 9 8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 Jack 8 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+6 2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 
+Player 2's hand:
+9 8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 Jack 8 10 5 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+2 Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 
+Player 2's hand:
+8 Jack 7 7 2 5 5 7 King 4 6 Queen 8 Jack 8 10 5 9 6 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+Queen 6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 
+Player 2's hand:
+Jack 7 7 2 5 5 7 King 4 6 Queen 8 Jack 8 10 5 9 6 8 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+6 4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 
+Player 2's hand:
+7 7 2 5 5 7 King 4 6 Queen 8 Jack 8 10 5 9 6 8 2 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+4 3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 
+Player 2's hand:
+7 2 5 5 7 King 4 6 Queen 8 Jack 8 10 5 9 6 8 2 7 6 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 31
+Number of Cards in Player 2's Deck: 21
+Player 1's hand:
+3 5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 
+Player 2's hand:
+2 5 5 7 King 4 6 Queen 8 Jack 8 10 5 9 6 8 2 7 6 7 4 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+5 3 King 10 King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 
+Player 2's hand:
+5 5 7 King 4 6 Queen 8 Jack 8 10 5 9 6 8 2 7 6 7 4 
+
+We have a standard war
+
+Player 2 wins this round
+Number of Cards in Player 1's Deck: 28
+Number of Cards in Player 2's Deck: 24
+Player 1's hand:
+King 4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 
+Player 2's hand:
+4 6 Queen 8 Jack 8 10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 29
+Number of Cards in Player 2's Deck: 23
+Player 1's hand:
+4 Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 
+Player 2's hand:
+6 Queen 8 Jack 8 10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 28
+Number of Cards in Player 2's Deck: 24
+Player 1's hand:
+Jack 3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 
+Player 2's hand:
+Queen 8 Jack 8 10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 27
+Number of Cards in Player 2's Deck: 25
+Player 1's hand:
+3 Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 
+Player 2's hand:
+8 Jack 8 10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+Ace 6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 
+Player 2's hand:
+Jack 8 10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 27
+Number of Cards in Player 2's Deck: 25
+Player 1's hand:
+6 Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack 
+Player 2's hand:
+8 10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 26
+Number of Cards in Player 2's Deck: 26
+Player 1's hand:
+Ace 10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack 
+Player 2's hand:
+10 5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 27
+Number of Cards in Player 2's Deck: 25
+Player 1's hand:
+10 King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 
+Player 2's hand:
+5 9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 28
+Number of Cards in Player 2's Deck: 24
+Player 1's hand:
+King 7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 
+Player 2's hand:
+9 6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 29
+Number of Cards in Player 2's Deck: 23
+Player 1's hand:
+7 Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 
+Player 2's hand:
+6 8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 30
+Number of Cards in Player 2's Deck: 22
+Player 1's hand:
+Queen 4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 
+Player 2's hand:
+8 2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 31
+Number of Cards in Player 2's Deck: 21
+Player 1's hand:
+4 10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 
+Player 2's hand:
+2 7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+10 2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 
+Player 2's hand:
+7 6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+2 Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 
+Player 2's hand:
+6 7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 32
+Number of Cards in Player 2's Deck: 20
+Player 1's hand:
+Ace Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 
+Player 2's hand:
+7 4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 6 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 33
+Number of Cards in Player 2's Deck: 19
+Player 1's hand:
+Queen Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 
+Player 2's hand:
+4 5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 6 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 34
+Number of Cards in Player 2's Deck: 18
+Player 1's hand:
+Jack 9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 
+Player 2's hand:
+5 5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 6 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 35
+Number of Cards in Player 2's Deck: 17
+Player 1's hand:
+9 3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 
+Player 2's hand:
+5 3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 6 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 36
+Number of Cards in Player 2's Deck: 16
+Player 1's hand:
+3 2 Ace 9 9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 
+Player 2's hand:
+3 5 King 7 King 10 6 4 Queen Jack 8 3 8 6 6 2 
+
+We have a standard war
+
+Player 1 wins this round
+Number of Cards in Player 1's Deck: 40
+Number of Cards in Player 2's Deck: 12
+Player 1's hand:
+9 8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 
+Player 2's hand:
+King 10 6 4 Queen Jack 8 3 8 6 6 2 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 39
+Number of Cards in Player 2's Deck: 13
+Player 1's hand:
+8 Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 
+Player 2's hand:
+10 6 4 Queen Jack 8 3 8 6 6 2 King 9 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+Queen Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 
+Player 2's hand:
+6 4 Queen Jack 8 3 8 6 6 2 King 9 10 8 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 39
+Number of Cards in Player 2's Deck: 13
+Player 1's hand:
+Jack 3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 
+Player 2's hand:
+4 Queen Jack 8 3 8 6 6 2 King 9 10 8 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 40
+Number of Cards in Player 2's Deck: 12
+Player 1's hand:
+3 2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 
+Player 2's hand:
+Queen Jack 8 3 8 6 6 2 King 9 10 8 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 39
+Number of Cards in Player 2's Deck: 13
+Player 1's hand:
+2 King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 
+Player 2's hand:
+Jack 8 3 8 6 6 2 King 9 10 8 Queen 3 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 38
+Number of Cards in Player 2's Deck: 14
+Player 1's hand:
+King 4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 
+Player 2's hand:
+8 3 8 6 6 2 King 9 10 8 Queen 3 Jack 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 39
+Number of Cards in Player 2's Deck: 13
+Player 1's hand:
+4 Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 
+Player 2's hand:
+3 8 6 6 2 King 9 10 8 Queen 3 Jack 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 40
+Number of Cards in Player 2's Deck: 12
+Player 1's hand:
+Ace Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 
+Player 2's hand:
+8 6 6 2 King 9 10 8 Queen 3 Jack 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 41
+Number of Cards in Player 2's Deck: 11
+Player 1's hand:
+Jack Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 
+Player 2's hand:
+6 6 2 King 9 10 8 Queen 3 Jack 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 42
+Number of Cards in Player 2's Deck: 10
+Player 1's hand:
+Ace 10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 
+Player 2's hand:
+6 2 King 9 10 8 Queen 3 Jack 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 43
+Number of Cards in Player 2's Deck: 9
+Player 1's hand:
+10 10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 
+Player 2's hand:
+2 King 9 10 8 Queen 3 Jack 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 44
+Number of Cards in Player 2's Deck: 8
+Player 1's hand:
+10 5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 
+Player 2's hand:
+King 9 10 8 Queen 3 Jack 2 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 43
+Number of Cards in Player 2's Deck: 9
+Player 1's hand:
+5 King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 
+Player 2's hand:
+9 10 8 Queen 3 Jack 2 King 10 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 42
+Number of Cards in Player 2's Deck: 10
+Player 1's hand:
+King 9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 
+Player 2's hand:
+10 8 Queen 3 Jack 2 King 10 9 5 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 43
+Number of Cards in Player 2's Deck: 9
+Player 1's hand:
+9 7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 
+Player 2's hand:
+8 Queen 3 Jack 2 King 10 9 5 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 44
+Number of Cards in Player 2's Deck: 8
+Player 1's hand:
+7 6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 
+Player 2's hand:
+Queen 3 Jack 2 King 10 9 5 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 43
+Number of Cards in Player 2's Deck: 9
+Player 1's hand:
+6 Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 
+Player 2's hand:
+3 Jack 2 King 10 9 5 Queen 7 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 44
+Number of Cards in Player 2's Deck: 8
+Player 1's hand:
+Queen 8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 
+Player 2's hand:
+Jack 2 King 10 9 5 Queen 7 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 45
+Number of Cards in Player 2's Deck: 7
+Player 1's hand:
+8 4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 
+Player 2's hand:
+2 King 10 9 5 Queen 7 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 46
+Number of Cards in Player 2's Deck: 6
+Player 1's hand:
+4 2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 
+Player 2's hand:
+King 10 9 5 Queen 7 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 45
+Number of Cards in Player 2's Deck: 7
+Player 1's hand:
+2 10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 
+Player 2's hand:
+10 9 5 Queen 7 King 4 
+
+Player 2 wins this round
+
+Number of Cards in Player 1's Deck: 44
+Number of Cards in Player 2's Deck: 8
+Player 1's hand:
+10 7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 
+Player 2's hand:
+9 5 Queen 7 King 4 10 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 45
+Number of Cards in Player 2's Deck: 7
+Player 1's hand:
+7 Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 10 9 
+Player 2's hand:
+5 Queen 7 King 4 10 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 46
+Number of Cards in Player 2's Deck: 6
+Player 1's hand:
+Ace 7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 10 9 7 5 
+Player 2's hand:
+Queen 7 King 4 10 2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 47
+Number of Cards in Player 2's Deck: 5
+Player 1's hand:
+7 Queen 4 Jack 5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 10 9 7 5 Ace Queen 
+Player 2's hand:
+7 King 4 10 2 
+
+We have a standard war
+
+Player 1 wins this round
+Number of Cards in Player 1's Deck: 51
+Number of Cards in Player 2's Deck: 1
+Player 1's hand:
+5 9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 10 9 7 5 Ace Queen 7 7 Queen King 4 4 Jack 10 
+Player 2's hand:
+2 
+
+Player 1 wins this round
+
+Number of Cards in Player 1's Deck: 52
+Number of Cards in Player 2's Deck: 0
+Player 1's hand:
+9 5 3 3 2 5 Ace King 9 7 Queen 6 Jack 4 King 8 4 3 Ace 8 Jack 6 Ace 6 10 2 King 10 9 8 6 3 Queen Jack 8 2 10 9 7 5 Ace Queen 7 7 Queen King 4 4 Jack 10 5 2 
+Player 2's hand:
+
+
+Player 1 Wins the Game!

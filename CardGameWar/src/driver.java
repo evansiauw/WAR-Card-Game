@@ -1,8 +1,17 @@
 import java.util.LinkedList;
 import java.util.ListIterator;
-import java.util.Random;
-import java.math.*;
 
+/*
+ * War Card Game 
+ * 
+ * Joshua Goldstein, Iwan Siauw, Orlando Calle
+ * 
+ * This program simulates a game of war with the following rules:
+ * 1. if there is a war, the players will put 2 cards face down and one card face up.
+ * 2. if one player does not have enough cards to play in the war, that player will put down whatever cards they have and the other player will
+ * do the same.
+ * 3. if there is a war and one player has only one card left (the card that caused the war), then the winner of the game will be determined by the player with the most cards
+ */
 public class driver {
 
     public static void main(String[] args) {
@@ -54,7 +63,7 @@ public class driver {
             }
             
             else {
-            		if (player1.size() >= 5 && player2.size() >= 5){
+            		if (player1.size() >= 4 && player2.size() >= 4){
             		    System.out.println("We have a standard war\n");
             		    standardWar(player1, player2, temp); 
             		}
@@ -75,13 +84,11 @@ public class driver {
     
     private static void ModifiedWar(LinkedList <Deck> player1, LinkedList <Deck> player2, LinkedList <Deck> temp){
     	if (player1.size() != 1 && player2.size() != 1){
-    		//remove cards that caused the war and put them in temp list
             temp.add(player1.removeFirst());
             temp.add(player2.removeFirst());
         
             int num = Math.min(player1.size(), player2.size()); 
-    		
-            //the player with less cards deals whatever they got
+
     		for(int i = 0; i < num-1; i++) {
     			temp.add(player1.removeFirst());
     			temp.add(player2.removeFirst());
@@ -151,7 +158,6 @@ public class driver {
                 temp.clear();
                 System.out.println("Player 2 wins this round");
             }
-        
     }
     
     private static void printingCards(LinkedList <Deck> player1, LinkedList <Deck> player2)
